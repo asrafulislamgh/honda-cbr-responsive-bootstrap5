@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Style  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom Style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/6ecc7d3ea8.js" crossorigin="anonymous"></script>
+    <title>Honda CBR | Bootstrap 5</title>
+</head>
+
+<body>
+    <header>
+        <div id="home" class="header-section bg-custom-blue">
+            <!-- Nav Section  -->
+            <section>
+                <nav class="navbar fixed-top bg-custom-blue navbar-expand-lg text-white navbar-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid w-75"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav text-center  ms-auto">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                                <a class="nav-link" href="#featured-bike">Bikes</a>
+                                <a class="nav-link" href="#latest-news">News</a>
+                                <a class="nav-link" href="#happy-client">Review</a>
+                                <a class="nav-link" href="#frequently-asked">FAQ</a>
+                                <a href="#" class="main-btn ms-0 ms-lg-5 ms-xl-5">Login</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- Header Slider Section  -->
+            <div class="header-slider p-5">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 text-center text-md-start text-lg-start text-xl-start">
+                            <div class="slider-text">
+                                <p class="slider-top-text">Computer-controlled digital transistorized with electronic
+                                    advance</p>
+                                <h1 class="text-white">Honda CBR 300R</h1>
+                                <p class="slider-bottom-text">If you’ve got a soft spot for sportbike design and Grand
+                                    Prix stylings, then the 2021
+                                    Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and
+                                    a total blast to ride around town and on twisty back roads.</p>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                    class="main-btn mt-3 ">Purchase</a>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Honda CBR 300R</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body text-center">
+                                                <div>
+                                                    <img class="img-fluid w-50 mb-3" src="images/header-bike.png"
+                                                        alt="">
+                                                </div>
+                                                <div>
+                                                    <h3>Honda CBR150R</h3>
+                                                    <p>Mileage : 50km/lt</p>
+                                                    <p>Max Power : 17.1 PS@9000rpm</p>
+                                                    <p>Fuel Capacity : 12L</p>
+                                                    <p>Displacement : 149.16cc</p>
+                                                    <h3 class="orange-color">1.60 Lakh*</h3>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary">Confirm</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-5 pt-lg-0 pt-xl-0">
+                            <img class="img-fluid" src="images/header-bike.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section  -->
+    <main>
+        <!-- Featured Bike  -->
+        <section id="featured-bike">
+            <div class="container mt-2 mt-xl-5 mt-lg-5 mb-5">
+                <div class="section-heading text-center">
+                    <h1>Fetured Bikes 2021</h1>
+                    <p class="orange-color fs-6">Best bike collection</p>
+                    <hr class="header-line mx-auto">
+                </div>
+                <div class="row">
+                    <div class="col-md-4 p-5">
+                        <img class="grayscale img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 p-5">
+                        <img class="img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 p-5">
+                        <img class="grayscale img-fluid" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- latest News  -->
+
+        <section id="latest-news">
+            <div class="container mt-2 mt-xl-5 mt-lg-5 mt-5">
+                <div class="section-heading text-center">
+                    <h1>latest News</h1>
+                </div>
+                <div class="row mt-5 g-4">
+                    <div class="col-md-4 rounded-3">
+                        <div class="card p-3 shadow-sm">
+                            <div class="item-inner">
+                                <img class="img-fluid" src="images/bike-1.png" alt="">
+                                <div class="item-text pt-3">
+                                    <h2>Ducati XDIAVEL S-73</h2>
+                                    <p>The new XDiavel Black Star version embodies the sports side of the Ducati
+                                        cruiser.</p>
+                                    <a href="#" class="main-btn mt-3 px-md-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 rounded-3">
+                        <div class="card p-3 shadow-sm">
+                            <div class="item-inner">
+                                <img class="img-fluid" src="images/bike-2.png" alt="">
+                                <div class="item-text pt-3">
+                                    <h2>Motorcycles</h2>
+                                    <p>CBC Motorcycles. Motor Vehicle Company · Custom Bike Mongolia. Bike Rental ·
+                                        Shinko tire Mongolia.</p>
+                                    <a href="#" class="main-btn mt-3 px-md-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4 rounded-3">
+                        <div class="card p-3 shadow-sm">
+                            <div class="item-inner">
+                                <img class="img-fluid" src="images/bike-3.png" alt="">
+                                <div class="item-text pt-3">
+                                    <h2>2021 Honda CBR500R</h2>
+                                    <p>2021 CBR500R ABS OVERVIEW - Honda Is it any wonder why the Honda CBR500R is the
+                                        best now?</p>
+                                    <a href="#" class="main-btn mt-3 px-md-3">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Happy Client  -->
+
+        <section id="happy-client">
+            <div class="happy-client-section">
+                <div class="container mt-2 mt-xl-5 mt-lg-5 mt-5">
+                    <div class="section-heading text-center">
+                        <h1>Happy <span class="orange-color">Clients says</span></h1>
+                    </div>
+                    <div class="row mt-5 g-4">
+                        <div class="col-md-4 rounded-3">
+                            <div class="card  p-2 p-sm-3 p-md-4 p-lg-5 p-xl-5 p-xxl-5 shadow-sm">
+                                <div class="item-inner text-center">
+                                    <img class="img-fluid mb-3" src="images/user-1.png" alt="">
+                                    <div class="item-text pt-3">
+                                        <p>I just simply love tools that make my life easier! And user.com is definitely
+                                            one of them! I have everything that I need in one place?</p>
+                                        <h3 class="orange-color">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </h3>
+                                        <h3 class="text-primary my-3">Mr. Ajeeb public</h3>
+                                        <p class="fst-italic">Shorbe Shorba</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 rounded-3">
+                            <div class="card p-2 p-sm-3 p-md-4 p-lg-5 p-xl-5 p-xxl-5 shadow-sm">
+                                <div class="item-inner text-center">
+                                    <img class="img-fluid mb-3" src="images/Profile-pic.jpg" alt="">
+                                    <div class="item-text pt-3">
+                                        <p>Sync all our communication of marketing & sale teams in one space and be able
+                                            to send out different types of campaigns to different groups of customers.
+                                        </p>
+                                        <h3 class="orange-color">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </h3>
+                                        <h3 class="text-primary my-3">Asraful Islam</h3>
+                                        <p class="fst-italic">Web Developer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 rounded-3">
+                            <div class="card p-2 p-sm-3 p-md-4 p-lg-5 p-xl-5 p-xxl-5 shadow-sm">
+                                <div class="item-inner text-center">
+                                    <img class="img-fluid mb-3" src="images/user-3.jpg" alt="">
+                                    <div class="item-text pt-3">
+                                        <p>I like that User enables the team to be more organized when it comes either
+                                            to current leads, and overall marketing
+                                            activities that we undertake.</p>
+                                        <h3 class="orange-color">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="far fa-star"></i>
+                                        </h3>
+                                        <h3 class="text-primary my-3">Mrs. Janina Begum</h3>
+                                        <p class="fst-italic">Fashion Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Frequently asked  -->
+
+        <section id="frequently-asked">
+            <div class="frequently-asked-section">
+                <div class="container mt-2 mt-xl-5 mt-lg-5 mt-5">
+                    <div class="section-heading text-center">
+                        <h1>Frequently Asked <span class="orange-color">Questions</span></h1>
+                    </div>
+                    <div class="row mt-5 g-4">
+                        <div class="col-md-6 p-4">
+                            <img class="img-fluid" src="images/faq.png" alt="">
+
+                        </div>
+                        <div class="col-md-6 rounded-3">
+
+                            <!-- Accordion section  -->
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button bg-white text-dark" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            What are the most important things I should
+                                            know about riding a bike?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h4>
+                                                <strong>Several things from the dh/enduro/dirt jump
+                                                    environment:</strong><br>
+                                                <ol>
+                                                    <li>
+                                                        Is just how badly you can mangle yourself in a bicycle.
+                                                    </li>
+                                                    <li>
+                                                        is just how long that can take to recover form. Not only are
+                                                        there surface wounds and bones but also the tendons. Oh god the
+                                                        tendons.
+                                                    </li>
+                                                    <li>
+                                                        that you always seem to know what way up is….
+                                                    </li>
+                                                    <li>
+                                                        bike maintenance. It’s one of those sad things I love. I also
+                                                        love doing custom builds.
+                                                    </li>
+                                                </ol>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button bg-white text-dark collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            How can I tell if my helmet is old and I need a
+                                            new one?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h4>
+                                                We are emerging from a period when helmet styles had been more
+                                                "squared-off" and elongated. Designers added unnecessary ridges and
+                                                projections that may increase the sliding resistance of a helmet shell.
+                                                But starting about 2015, styles began changing and the "compact" road
+                                                helmet became more fashionable.
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button bg-white text-dark collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            My bike has been in storage is it safe to ride?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h4>
+                                                Things are finally starting to warm up and it’s time to get your
+                                                motorcycle out of storage and ready for the riding season. If you’re
+                                                anything like us you’ve been chomping at the bit to get your bike out
+                                                and go for a long ride. At the first inclination of warm weather you
+                                                just want to get out and go, but it’s important to make sure your bike
+                                                is as ready to go as you are. This article will give you a few tips and
+                                                pointers to help ensure your bike is ready to go when the warm weather
+                                                hits.
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button bg-white text-dark collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            What rules should I follow when riding my bike?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <h4>
+                                                <ol>
+                                                    <li>
+                                                        Be visible at all times. - Wear bright and visible clothes.
+                                                        Reflective
+                                                        stripes ads viability. Always stay out of blind zones.
+                                                        Alert other
+                                                    </li>
+
+                                                    <li>
+                                                        drivers before entering their blind zone.
+                                                        Be predictable. - Others on the road must be able to predict
+                                                        your next
+                                                        move. Give proper signals before changing a lane or taking
+                                                        deviation.
+                                                    </li>
+                                                    <li>
+                                                        Everyone in the road is dumb and partially blind. - Well, just
+                                                        imagine
+                                                        so and be prepared for an unexpected turn or braking.
+                                                    </li>
+                                                </ol>
+
+
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Championship Section  -->
+        <section id="championship">
+            <div class="championship-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h1 class="text-white">World Moto Championship 2022<br> Washington DC</h1>
+                            <p class="text-white">We are proud to be your Honda headquarters. In our outstanding
+                                selection you'll find an
+                                offering of everything that Honda has to offer.</p>
+                            <a href="#" class="main-btn mt-3">Register Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter section  -->
+        <section id="newsletter">
+            <div class="newsletter-section bg-custom-blue p-2 p-md-5 p-lg-5 p-xl-5 p-xxl-5">
+                <div class="container">
+                    <div class="section-heading text-center py-5">
+                        <h1 class="newsletter-icon text-white mx-auto mb-4"><i class="fas fa-envelope-open-text"></i>
+                        </h1>
+                        <h2 class="text-white fw-normal display-5">Hurry Up! Subscribe Our Newsletter And Get 25% Off!
+                        </h2>
+                        <p class="text-white py-4">The email newsletter is still an incredibly powerful marketing tool.
+                            Than
+                            can boost the
+                            marketing up!</p>
+
+                        <div class="row">
+                            <div class="col-md-9 col-lg-10">
+                                <input class="form-control" type="email" placeholder="Your email address">
+                            </div>
+                            <div class="col-md-3 col-lg-2">
+                                <a href="#" class="main-btn mt-4 mt-md-0 mt-lg-0 mt-xl-0">Submit</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer Section  -->
+    <footer id="footer">
+        <section class="footer-section bg-dark pt-5 py-2 text-white">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-md-8 text-center text-md-start text-lg-start text-xl-start">
+                        <div>
+                            <a class="p-3" href="#">Download Now</a>
+                            <a class="p-3" href="#">License</a>
+                        </div>
+                        <div class=" d-block my-4 lh-lg text-center text-md-start text-lg-start text-xl-start">
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="#">About</a>
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="">Features</a>
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="">Pricing</a>
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="">Career</a>
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="">Help</a>
+                            <a class="p-1 p-sm-3 p-md-3 p-lg-3 p-xl-3" href="">Privacy Policy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="text-center text-md-end text-lg-end text-xl-end">
+                            <h3 class="text-light">Get the App</h3>
+                            <a href=""><img class="img-fluid w-50 mb-2" src="images/app1.png" alt=""></a>
+                            <a href=""><img class="img-fluid w-50" src="images/app2.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <img class="img-fluid" src="images/logo.png" alt="">
+                    <p class="p-3 text-center">© 2020 bike. All rights reserved, Asraful Islam</p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
+
+
+    <!-- Bootstrap Script  -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- Some Comments  -->
